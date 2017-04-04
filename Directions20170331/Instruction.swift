@@ -37,11 +37,20 @@ func turn(_ instruction: Instruction, fromFacing: CardinalDirection) -> Cardinal
     }
 }
 
-func moveNorth (north: Location) {
-    if  north == (0,1) {
-        return ()
+func move(amountToMove: Int, fromFacing: CardinalDirection, from: Location) -> Location {
+    switch fromFacing {
+    case .north:
+        return(from.x, from.y + amountToMove)
+    case .east:
+        return(from.x + amountToMove, from.y)
+    case .south:
+        return(from.x, from.y - amountToMove)
+    case .west:
+        return(from.x - amountToMove, from.y)
     }
 }
+
+
 
 
 

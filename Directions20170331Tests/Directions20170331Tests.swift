@@ -61,10 +61,3 @@ class Directions20170331Tests: XCTestCase {
 }
 
 
-/*func testMoveNorth() {
-    let result = moveNorth(north: 0, 1)
-    let expected: Location = (0, 1)
-    
-    XCTAssertEqual(result, expected)
-}
-*/
