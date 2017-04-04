@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		300EACD01E93179800088A48 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300EACCF1E93179800088A48 /* Location.swift */; };
 		306B3D101E8EE3D5002C5072 /* Directions20170331.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 306B3D061E8EE3D5002C5072 /* Directions20170331.framework */; };
 		306B3D151E8EE3D5002C5072 /* Directions20170331Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B3D141E8EE3D5002C5072 /* Directions20170331Tests.swift */; };
 		306B3D171E8EE3D5002C5072 /* Directions20170331.h in Headers */ = {isa = PBXBuildFile; fileRef = 306B3D091E8EE3D5002C5072 /* Directions20170331.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		306B3D211E8EE5DB002C5072 /* CardinalDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B3D201E8EE5DB002C5072 /* CardinalDirection.swift */; };
+		306B3D231E8EE5E8002C5072 /* Instruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B3D221E8EE5E8002C5072 /* Instruction.swift */; };
+		306B3D251E8EEA79002C5072 /* LocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B3D241E8EEA79002C5072 /* LocationTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +27,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		300EACCF1E93179800088A48 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Location.swift; path = Directions20170331/Location.swift; sourceTree = "<group>"; };
 		306B3D061E8EE3D5002C5072 /* Directions20170331.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Directions20170331.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		306B3D091E8EE3D5002C5072 /* Directions20170331.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Directions20170331.h; sourceTree = "<group>"; };
 		306B3D0A1E8EE3D5002C5072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		306B3D0F1E8EE3D5002C5072 /* Directions20170331Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Directions20170331Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		306B3D141E8EE3D5002C5072 /* Directions20170331Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Directions20170331Tests.swift; sourceTree = "<group>"; };
 		306B3D161E8EE3D5002C5072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		306B3D201E8EE5DB002C5072 /* CardinalDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardinalDirection.swift; sourceTree = "<group>"; };
+		306B3D221E8EE5E8002C5072 /* Instruction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instruction.swift; sourceTree = "<group>"; };
+		306B3D241E8EEA79002C5072 /* LocationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				306B3D081E8EE3D5002C5072 /* Directions20170331 */,
+				300EACCF1E93179800088A48 /* Location.swift */,
 				306B3D131E8EE3D5002C5072 /* Directions20170331Tests */,
 				306B3D071E8EE3D5002C5072 /* Products */,
 			);
@@ -73,6 +82,8 @@
 			children = (
 				306B3D091E8EE3D5002C5072 /* Directions20170331.h */,
 				306B3D0A1E8EE3D5002C5072 /* Info.plist */,
+				306B3D201E8EE5DB002C5072 /* CardinalDirection.swift */,
+				306B3D221E8EE5E8002C5072 /* Instruction.swift */,
 			);
 			path = Directions20170331;
 			sourceTree = "<group>";
@@ -81,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				306B3D141E8EE3D5002C5072 /* Directions20170331Tests.swift */,
+				306B3D241E8EEA79002C5072 /* LocationTests.swift */,
 				306B3D161E8EE3D5002C5072 /* Info.plist */,
 			);
 			path = Directions20170331Tests;
@@ -148,6 +160,7 @@
 				TargetAttributes = {
 					306B3D051E8EE3D5002C5072 = {
 						CreatedOnToolsVersion = 8.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					306B3D0E1E8EE3D5002C5072 = {
@@ -196,6 +209,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				306B3D231E8EE5E8002C5072 /* Instruction.swift in Sources */,
+				300EACD01E93179800088A48 /* Location.swift in Sources */,
+				306B3D211E8EE5DB002C5072 /* CardinalDirection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				306B3D251E8EEA79002C5072 /* LocationTests.swift in Sources */,
 				306B3D151E8EE3D5002C5072 /* Directions20170331Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,6 +339,7 @@
 		306B3D1B1E8EE3D5002C5072 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -333,6 +351,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Tennant.Shaw.Directions20170331;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -340,6 +359,7 @@
 		306B3D1C1E8EE3D5002C5072 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -358,6 +378,7 @@
 		306B3D1E1E8EE3D5002C5072 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = Directions20170331Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Tennant.Shaw.Directions20170331Tests;
@@ -369,6 +390,7 @@
 		306B3D1F1E8EE3D5002C5072 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = Directions20170331Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Tennant.Shaw.Directions20170331Tests;
@@ -396,6 +418,7 @@
 				306B3D1C1E8EE3D5002C5072 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		306B3D1D1E8EE3D5002C5072 /* Build configuration list for PBXNativeTarget "Directions20170331Tests" */ = {
 			isa = XCConfigurationList;
@@ -404,6 +427,7 @@
 				306B3D1F1E8EE3D5002C5072 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
