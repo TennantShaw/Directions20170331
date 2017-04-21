@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		300EACD01E93179800088A48 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300EACCF1E93179800088A48 /* Location.swift */; };
 		306B3D101E8EE3D5002C5072 /* Directions20170331.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 306B3D061E8EE3D5002C5072 /* Directions20170331.framework */; };
 		306B3D151E8EE3D5002C5072 /* Directions20170331Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B3D141E8EE3D5002C5072 /* Directions20170331Tests.swift */; };
 		306B3D171E8EE3D5002C5072 /* Directions20170331.h in Headers */ = {isa = PBXBuildFile; fileRef = 306B3D091E8EE3D5002C5072 /* Directions20170331.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		306B3D211E8EE5DB002C5072 /* CardinalDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B3D201E8EE5DB002C5072 /* CardinalDirection.swift */; };
 		306B3D231E8EE5E8002C5072 /* Instruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B3D221E8EE5E8002C5072 /* Instruction.swift */; };
 		306B3D251E8EEA79002C5072 /* LocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306B3D241E8EEA79002C5072 /* LocationTests.swift */; };
+		30BA9A191EAA7FFE00A7C725 /* BadInstructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA9A181EAA7FFE00A7C725 /* BadInstructions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +27,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		300EACCF1E93179800088A48 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Location.swift; path = Directions20170331/Location.swift; sourceTree = "<group>"; };
 		306B3D061E8EE3D5002C5072 /* Directions20170331.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Directions20170331.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		306B3D091E8EE3D5002C5072 /* Directions20170331.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Directions20170331.h; sourceTree = "<group>"; };
 		306B3D0A1E8EE3D5002C5072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +36,7 @@
 		306B3D201E8EE5DB002C5072 /* CardinalDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardinalDirection.swift; sourceTree = "<group>"; };
 		306B3D221E8EE5E8002C5072 /* Instruction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instruction.swift; sourceTree = "<group>"; };
 		306B3D241E8EEA79002C5072 /* LocationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTests.swift; sourceTree = "<group>"; };
+		30BA9A181EAA7FFE00A7C725 /* BadInstructions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadInstructions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				306B3D081E8EE3D5002C5072 /* Directions20170331 */,
-				300EACCF1E93179800088A48 /* Location.swift */,
 				306B3D131E8EE3D5002C5072 /* Directions20170331Tests */,
 				306B3D071E8EE3D5002C5072 /* Products */,
 			);
@@ -83,6 +82,7 @@
 				306B3D091E8EE3D5002C5072 /* Directions20170331.h */,
 				306B3D0A1E8EE3D5002C5072 /* Info.plist */,
 				306B3D201E8EE5DB002C5072 /* CardinalDirection.swift */,
+				30BA9A181EAA7FFE00A7C725 /* BadInstructions.swift */,
 				306B3D221E8EE5E8002C5072 /* Instruction.swift */,
 			);
 			path = Directions20170331;
@@ -210,7 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				306B3D231E8EE5E8002C5072 /* Instruction.swift in Sources */,
-				300EACD01E93179800088A48 /* Location.swift in Sources */,
+				30BA9A191EAA7FFE00A7C725 /* BadInstructions.swift in Sources */,
 				306B3D211E8EE5DB002C5072 /* CardinalDirection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
